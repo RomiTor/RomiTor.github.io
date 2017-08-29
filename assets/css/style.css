@@ -170,6 +170,7 @@ a:link{
     font-weight: 700;
     margin-top: 5rem;
 }
+
 	.interes{
 		width: 100px;
 		height: 100px;
@@ -249,9 +250,22 @@ a:link{
 	justify-content: center;
 	align-items: center;
 }
+.skills-big-responsive{
+	border: 5px solid skyblue;
+	border-radius: 50%;
+	width: 90px;
+	height: 90px;
+	margin: auto;
+	margin-bottom: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.skills-big	i{
+	font-size: 50px;
+}
 .skills-big	i{
 	font-size: 100px;
-
 }	
 .javascript{
 	border-color: skyblue;
@@ -271,21 +285,10 @@ a:link{
 .css3 i{
 	color: skyblue;
 }
-.skills-small{
-	border: 6px solid #ACC1C2;
-	border-radius: 50%;
-	width: 100px;
-	height: 100px;
-	margin: auto;
-	margin-bottom: 20px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
 .skill-small i{
 	font-size: 60px;
 	color: #ACC1C2;
-	margin-top: -10px;
+	bottom: 30px;
 }
 
 /*PORTAFOLIO*/
